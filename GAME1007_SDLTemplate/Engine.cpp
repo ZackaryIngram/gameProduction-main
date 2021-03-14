@@ -49,7 +49,7 @@ int Engine::Init(const char* title, int xPos, int yPos, int width, int height, i
 					{// Load the chunks into the Mix_Chunk vector.
 						Mix_OpenAudio(22050, AUDIO_S16SYS, 2, 2048); // Good for most games.
 						Mix_AllocateChannels(16);
-						m_pMusic = Mix_LoadMUS("../assets/Aud/limbo.mp3"); // Load the music track.
+						m_pMusic = Mix_LoadMUS("../assets/Aud/Music.mp3"); // Load the music track.
 						if (m_pMusic == nullptr)
 							cout << Mix_GetError() << endl;
 						
