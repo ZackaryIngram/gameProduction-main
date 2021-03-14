@@ -291,7 +291,7 @@ void Engine::CheckCollision()
 			// set attack animation back to false
 			m_yellowEnemyCreation[i]->SetAttack(false);
 		}
-
+		
 	}
 
 	//Player right bullet - collision to enemy
